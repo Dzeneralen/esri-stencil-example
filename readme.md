@@ -5,7 +5,7 @@
 Stencil components are just Web Components, so they work in any major framework or with no framework at all. In many cases, Stencil can be used as a drop in replacement for traditional frontend frameworks given the capabilities now available in the browser, though using it as such is certainly not required.
 
 <p align="center">
-<img alt="Image of application" src="example-image.png"/>
+<img alt="Image of application" src="https://github.com/Dzeneralen/esri-stencil-example/blob/master/example-image.PNG?raw=true"/>
 </p>
 
 ## Getting Started
