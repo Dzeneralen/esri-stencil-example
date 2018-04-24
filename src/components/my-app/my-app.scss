@@ -1,0 +1,68 @@
+@import '../../assets/common/_variables.scss';
+
+.my-app {
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  position: absolute;
+  z-index: 0;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 100%;
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 3.5rem;
+
+    background-color: $primary-color;
+    color: $primary-text-color;
+    box-shadow: 0 2px 1px -1px $primary-text-color;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-shrink: 1;
+    flex-grow: 1;
+    overflow-y: scroll;
+
+    color: $primary-text-color;
+    background: darken($primary-background-color, 3%);
+
+    > div {
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 2.5rem;
+
+    color: $primary-background-color;
+    background-color: $primary-color;
+  }
+  
+  h1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: $primary-background-color;
+    padding: 0 12px;
+  }
+} 

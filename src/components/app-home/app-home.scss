@@ -1,0 +1,43 @@
+@import '../../assets/common/_variables.scss';
+
+.app-home {
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+
+  .card {
+    flex-basis: 90%;
+    border-radius: 2px;
+    margin: 0 0 0.5rem;
+    padding: 0 1rem;
+
+    box-shadow: 0 1px 3px 0 rgba(33,33,33,0.4);
+
+    background: $primary-background-color;
+  }
+
+  button {
+    background: #5851ff;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1rem 1.2rem;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px 0 rgba(33,33,33,0.4);
+    outline: 0;
+    letter-spacing: .04em;
+    transition: all .15s ease;
+    cursor: pointer;
+  }
+    
+  button:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.1);
+    transform: translateY(1px);
+  }
+}
+
+
+
