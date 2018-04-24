@@ -1,6 +1,6 @@
 # Esri Stencil example application
 
-Stencil is a compiler for building fast web apps using Web Components. This app shows how to integrate the ArcGIS API for JavaScript (https://developers.arcgis.com/javascript/) into a Stencil component.
+[Stencil](https://stenciljs.com/) is a compiler for building fast web apps using Web Components. This app shows how to integrate the [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/) into a Stencil component.
 
 Stencil components are just Web Components, so they work in any major framework or with no framework at all. In many cases, Stencil can be used as a drop in replacement for traditional frontend frameworks given the capabilities now available in the browser, though using it as such is certainly not required.
 
